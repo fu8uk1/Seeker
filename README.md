@@ -1,17 +1,8 @@
-<p align="center"><img src="https://i.imgur.com/DIpuNTI.jpg"></p>
-
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <img src="https://img.shields.io/badge/Docker-✔-blue.svg?style=plastic">
 </p>
 
-<p align="center">
-  <a href="https://twitter.com/thewhiteh4t"><b>Twitter</b></a>
-  <span> - </span>
-  <a href="https://t.me/thewhiteh4t"><b>Telegram</b></a>
-  <span> - </span>
-  <a href="https://thewhiteh4t.github.io"><b>thewhiteh4t's Blog</b></a>
-</p>
 
 <p align="center">
   <br>
@@ -76,7 +67,7 @@ You can choose a template which will be used by seeker from these :
 ### Kali Linux / Ubuntu / Parrot OS
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/fu8uk1/seeker.git
 cd seeker/
 chmod 777 install.sh
 ./install.sh
@@ -91,13 +82,13 @@ pacman -S seeker
 ### Docker
 
 ```bash
-docker pull thewhiteh4t/seeker
+docker pull fu8uk1/seeker
 ```
 
 ### Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/fu8uk1/seeker.git
 cd seeker/
 chmod 777 termux_install.sh
 ./termux_install.sh
@@ -145,7 +136,7 @@ python3 seeker.py --tunnel manual --subdomain zomato
 
 # SERVEO
 ########
-docker run -t --rm thewhiteh4t/seeker
+docker run -t --rm fu8uk1/seeker
 
 # NGROK
 #######
@@ -154,7 +145,7 @@ docker run -t --rm thewhiteh4t/seeker
 docker network create ngroknet
 
 # Step 2
-docker run --rm -t --net ngroknet --name seeker thewhiteh4t/seeker python3 seeker.py -t manual
+docker run --rm -t --net ngroknet --name seeker fu8uk1/seeker python3 seeker.py -t manual
 
 # Step 3
 docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
@@ -164,12 +155,6 @@ docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:
 
 * Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
 
-## Demo
 
-| Demo | Link |
-|-|-|
-| WhatsApp Template Demo | https://www.youtube.com/watch?v=dG0HkQmF4-A |
-| What's new in v1.1.9 | https://www.youtube.com/watch?v=FEyAPjkJFrk |
-| First Version | https://www.youtube.com/watch?v=ggUGPq4cjSM |
 
 
